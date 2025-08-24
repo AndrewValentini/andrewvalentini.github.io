@@ -74,9 +74,7 @@ layout: default
 
   {% if page.related_publications %}
     <h2>References</h2>
-    <div class="publications">
-      {% bibliography --group_by none --cited_in_order %}
-    </div>
+    <div class="publications"></div>
   {% endif %}
 
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
