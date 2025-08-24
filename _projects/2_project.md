@@ -8,4 +8,4 @@ category: math
 giscus_comments: true
 ---
 
-Where the second project will go 
+Where the second project will go
