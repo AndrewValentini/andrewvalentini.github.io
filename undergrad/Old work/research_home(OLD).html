@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Website</title>
+  <link rel="stylesheet" href="styles2.css">
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: #301934;
+    }
+
+    header {
+      margin-top: 25px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .box-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .box {
+      background-color: #E5E4E2;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+      height: 30px;
+    }
+
+    .box a {
+      text-decoration: none;
+      color: #301934;
+      padding: 10px;
+    }
+
+    .body-container {
+      display: flex;
+      max-width: 1000px;
+      margin: left;
+      text-align: left;
+    }
+
+    .text-and-image-container {
+      flex: 1;
+    }
+
+    .title-text {
+      font-weight: bold;
+      text-align: left;
+     
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .body-text {
+      font-size: 18px;
+      margin-right: 20px;
+      line-height: 2; /* Double line spacing */
+    }
+
+    .images-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .additional-image {
+      margin-top: 10px;
+      max-width: 250px;
+      height: auto;
+    }
+
+    .image-caption {
+      text-align: center;
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+      max-width: 250px; /* Add max-width to limit the width of the caption */
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .link {
+      color: #0066cc; /* Change link color as needed */
+      text-decoration: none;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Andrew Valentini</h1>
+  </header>
+
+  <div class="box-container">
+    <div class="box">
+      <p><a href="home.html">Home</a></p>
+    </div>
+    <div class="box">
+      <p><a href="research_home.html">Research</a></p>
+    </div>
+    <div class="box">
+      <p><a href="projects_home.html">Projects</a></p>
+    </div>
+    <div class="box">
+      <p><a href="curriculm_vitae_home.html">Research 2</a></p>
+    </div>
+  </div>
+  <hr> 
+  <!-- Your other content goes here -->
+  <div class="body-container">
+    <div class="text-and-image-container">
+      <div class="title-text">
+        Faculty-Directed Research in Gravitational Waves
+      </div>
+      <div class="body-text">
+        <p>test</p>
+       
+      </div>
+    </div>
+    <div class="images-container">
+      <figure>
+        <img class="additional-image" src="Materials/Images/LLO.jpg">
+        <figcaption class="image-caption">On top of one of LIGO Livingston's interferometer arms</figcaption>
+      </figure>
+      <figure>
+        <img class="additional-image" src="Materials/Images/lsu_poster.jpg">
+        <figcaption class="image-caption">Presenting my summer work at LSU's Summer Undergraduate Research Forum </figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="body-container">
+    <div class="text-and-image-container">
+      <div class="title-text">
+        <p>2023 REU at LSU</p>
+      </div>
+      <div class="body-text">
+        <p>During the summer of 2023, I was selected to participate in Louisiana State University's Research Experience for Undergraduates (REU) program. I was mentored by Dr. Gabriela González on a project related to glitch prevention (FIX THIS). The Laser Interferometer Gravitational-Wave Observatory (LIGO) uses search pipelines to detect gravitational waves from the inspiral of compact objects. These pipelines are designed to alert scientists when a gravitational wave event passes through the instrument. They are often tricked by sources of noise, however, meaning that the pipelines often mistake noise for a real gravitational wave event. I developed models that identify shared properties of these noise-caused alerts with the goal of providing a battery of tests that could be used to determine how likely a given alert was to be caused by sources of noise.</p>
+        <!-- Add more content as needed -->
+        <div class="body-text">A folder containing a project report and a copy of the poster can be found at this <a class="link" href="https://drive.google.com/drive/folders/1XiZtm2QQO18NfSeVxccGcGPE0y3iChMP?usp=drive_link">link</a>.</div>
+      </div>
+    </div>
+    <div class="images-container">
+      <figure>
+        <img class="additional-image" src="Materials/Images/LLO.jpg">
+        <figcaption class="image-caption">On top of one of LIGO Livingston's interferometer arms</figcaption>
+      </figure>
+      <figure>
+        <img class="additional-image" src="Materials/Images/lsu_poster.jpg">
+        <figcaption class="image-caption">Presenting my summer work at LSU's Summer Undergraduate Research Forum </figcaption>
+      </figure>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
