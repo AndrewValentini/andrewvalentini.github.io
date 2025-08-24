@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Andrew Valentini
     - name: Date of Birth
-      value: 14th March 1879
+      value: 8th March 2003
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Florida, Gainesville, FL
+      year: 2025 - 
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Undergraduate
+      institution: Carthage College, Kenosha, WI
+      year: 2021-2025
       description:
         - Description 1.
         - Description 2.

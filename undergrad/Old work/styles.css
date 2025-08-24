@@ -1,0 +1,124 @@
+/* Styles for the header */
+header {
+  background-color: #1b1919;
+  padding: 5px;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px; /* Add border radius to create rounded edges */
+}
+
+.header-text {
+  font-size: 24px;
+  margin-right: auto; /* Pushes the text to the left */
+}
+
+/* Styles for the link boxes */
+.link-box {
+  background-color: #1b1919;
+  padding: 10px;
+  margin: 10px;
+  display: inline-flex;
+  align-items: center; /* Vertically align content */
+  position: relative;
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+}
+
+.link-box::after {
+  content: "";
+  position: absolute;
+  top: calc(50% + 2px); /* Adjust the value to position the triangle correctly */
+  right: 10px;
+  transform: translateY(-50%) rotate(180deg); /* Update the rotation to 0 degrees */
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff; /* Use border-bottom instead of border-top */
+}
+
+
+/* Styles for the dropdown menus */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #262323;
+  padding: 10px;
+  transition: top 0.3s ease; /* Reduce transition time for smoother dropdown effect */
+  transform: translateY(-10px); /* Adjust the value to position the dropdown correctly */
+}
+
+/* Styles for the links inside dropdown menus */
+.dropdown-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Additional styles for link text */
+.link-box a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 15px; /* Add spacing to accommodate the triangle */
+}
+
+
+/* Show the dropdown menu when the .show class is added */
+.dropdown-menu.show {
+  display: block;
+  transform: translateY(0); /* Show the dropdown by resetting the transform value */
+}
+
+/* Styles for the content section */
+.content {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px; /* Adjust the padding value as desired */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.image-container {
+  margin-right: 30px; /* Add margin on the right side for spacing */
+  margin-left: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 400px; /* Adjust the height as desired */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.grey-rectangle {
+  width: 1000px;
+  height: 600px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.text-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-container h2 {
+  text-decoration: underline;
+}
+
+/* Additional styles for navigation, main content, and footer */
+/* Reset body margin, padding, and background color */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #333; /* Set the background color to a darker grey */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}

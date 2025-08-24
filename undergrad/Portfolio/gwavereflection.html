@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website</title>
+  <link rel="stylesheet" href="styles2.css">
+  <style>
+    body {
+      text-align: center; /* Center align the content within the body */
+      font-family: 'Times New Roman', Times, serif; /* Choose a suitable font */
+      color: #301934; 
+    }
+
+    header {
+      margin-top: 25px; /* Adjust the top margin as needed */
+    }
+
+    h1 {
+      font-size: 24px; /* Adjust the font size as needed */
+    }
+
+    .box-container {
+      display: flex;
+      justify-content: center; /* Center the boxes horizontally */
+      margin-top: 0px; /* Adjust the top margin as needed */
+    }
+
+    .box {
+      background-color: #E5E4E2; /* Set the background color to light grey */
+      box-sizing: border-box;
+      border-radius: 10px; /* Adjust the border-radius for rounded corners */
+      margin: 0 10px; /* Adjust the margin to bring the boxes closer together */
+      display: flex;
+      align-items: center; /* Center the text vertically within the box */
+      height: 30px; /* Adjust the height to make the boxes shorter */
+    }
+
+    .box a {
+      text-decoration: none; /* Remove underlining */
+      color: #301934; /* Set the font color to black */
+      padding: 10px; /* Adjust the padding for spacing around the text */
+    }
+
+    .section-heading {
+      font-weight: bold;
+      text-align: left;
+      margin-left: 50px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .section-body {
+      text-align: left; /* Align text to the left */
+      margin-left: 150px;
+      margin-right: 150px;
+      
+    }
+
+    .section-body p {
+      margin-bottom: 15px; /* Optional: Add space between paragraphs */
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Andrew Valentini</h1>
+  </header>
+
+  <div class="box-container">
+    <div class="box">
+        <p><a href="../index.html">Home</a></p>
+    </div>
+    <div class="box">
+        <p><a href="../research_home.html">Research</a></p>
+    </div>
+    <div class="box">
+        <p><a href="../projects_home.html">Projects</a></p>
+    </div>
+    <div class="box">
+        <p><a href="../personal.html">Personal</a></p>
+    </div>
+    <div class="box">
+        <p><a href="../portfolio.html">Portfolio</a></p>
+    </div>
+  </div>
+  <hr>
+
+  <div style="text-align: center; font-weight: bold; font-size: 30px;">
+    <b>Reflection on My Gravitational Waves Research</b>
+  </div>
+
+  <div class="section-body">
+    <br>
+    <br>
+    <div style="text-align: left; font-weight: bold; font-size: 25px;">
+      <b>Work at Carthage</b>
+    </div>
+
+    <br>
+    <br>
+    <div style="text-align: left; font-weight: bold; font-size: 20px; margin-left: 0px">
+      <b>Context</b> 
+    </div>
+    
+    <p> 
+
+      In my freshman J-Term, I joined Dr. Quashnock's gravitational wave research group, wanting to learn about more fundamental physics and try my hand at work that was closer to computation and theory. I am still an active member of the group after nearly three years now, which makes it the group I have been a part of for the longest time. The group's focus has shifted in the field of gravitational wave physics each year, which has provided me with a wide range of knowledge on gravitational wave physics. While the group has mostly worked on analyses of the LIGO-Virgo-Kagra's publicly available gravitational wave events, we have also engaged in more theoretical projects during my time with the group. In addition to the wide scope of the field of gravitational wave physics I have developed after working with this group, I have learned lots of technical skills such as Python and more advanced mathematics.  Working with the group, I have helped develop original simulations of gravitational wave emission, demonstrate the dependence these signals have on overtones, create an algorithm for predicting the astrophysical distance of an observed event, and have conducted a variety of analyses on the collaboration's publicly-available data. I will now describe my most influential year with this group in more detail.
+      </p>
+      
+      <div style="display: flex; justify-content: center; align-items: center; height: 50vh;">
+        <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+          <img src="../Materials/Images/GW_group_Midstates.JPG" alt="Example Image" style="max-width: 500px; margin-bottom: 10px; margin-top: 30px;">
+          <p style="text-align: center; font-style: italic; word-wrap: break-word; max-width: 550px;">An older picture of some members of the Carthage gravitational waves group (2022)</p>
+        </div>
+      
+        <div style="display: flex; flex-direction: column; align-items: center; margin-left: 20px;">
+          <img src="../Materials/Images/gwave_group_updated.jpg" alt="Example Image" style="max-width: 500px; margin-bottom: 10px; margin-top: 30px;">
+          <p style="text-align: center; font-style: italic; word-wrap: break-word; max-width: 550px;">An updated picture of some of the members of the group (2024)</p>
+        </div>
+      </div>
+    <br>
+    <br>
+
+
+    <div style="text-align: left; font-weight: bold; font-size: 20px;  margin-left: 0px">
+      <b>Description of 2022-23 Work</b>
+    </div>
+    <p> In my sophomore year, the group's focus shifted to a more theoretical project to do with the phase of gravitational wave emission following the merging of black holes, called the ringdown. As we began to learn early into the fall semester, there is a load of interesting physics to be learned from this phase, but because it is not nearly as energetic as the actual merging of black holes, so we have not yet detected any confident signals from this regime. Due to the lack of experimental data from this regime, researchers of this field turn to theorizing what the signals in it should look like, much like what was done prior to the discovery of the first gravitational wave, and model what these signals should look like. I personally spent a few months reading papers and watching talks on this subject of modeling and understanding the later phase of gravitational wave emissions, called black hole spectroscopy. During this time, I was beginning to recognize authors of papers and speakers whose work I had read in the previous year and begin to learn about the large groups on the subject. Most importantly, I also began to learn the history of gravitational wave physics, which I found very interesting to think about how historical factors had and continue to influence the trajectory of the field. This is an aspect of research that I continue to think about and that I try implementing into my more technical talks, especially when presenting to the public. I believe that giving this historical context can help in explaining science in addition to the intellectual stimulation. I had the opportunity to give three public talks on gravitational waves during my junior summer at Penn State, and from the feedback I received from them, my focus on historical context led to a very approachable and interesting talk.  </p>
+
+    <p>As the fall semester began to end, the group began thinking of possible questions to ask and attempt to answer within the field of black hole perturbation theory. Given that the field is without any confident experimental data and relies heavily on theory and computation, starting from nothing and developing our own simulations to model the ringdown phase would not be realistic. In our literature review, we found a recent thesis written in the field by Iara Ota, who was later a post-doc in the same lab that I worked with during my sophomore summer at LSU. In this work, she provided links to her GitHub which contained the simulation data and code that generated some of the results of her thesis. We then spent around a month or two working through her code and eventually applied it to some new data collected from a previous simulation made by Dr. Emanuele Berti to confirm that the fundamental overtone in the ringdown was dominant and was comparable in amplitude to the first overtone. This was my most influential year working with the group, as it exposed me to the theoretical and computational aspect of gravitational wave research. I enjoyed the process of working on currently undetected physics which could provide a window into new physics when this phenomenon is experimentally detected. 
+    </p>
+
+    <div style="display: flex; flex-direction: column; align-items: center; height: 70vh; justify-content: center;">
+      <img src="../Materials/Images/overtones.png" alt="Example Image" style="max-width: 640px; margin-bottom: 10px;">
+      <p style="text-align: center; font-style: italic; word-wrap: break-word; max-width: 550px">Demonstrating the dependence the ringdown phase of gravitational wave emission has on the select overtones.</p>
+    </div>
+
+
+    <div style="text-align: left; font-weight: bold; font-size: 20px;  margin-left: 0px">
+      <b>Reflection on Working with Dr. Quashnock's Group</b>
+    </div>
+    <p> My sum of experience working with Dr. Quashnock's gravitational wave research group has been particularly influential in my development in using Python and in exposing to a relatively young field with promising opportunities. As our current detectors become more sensitive and the next generation of detectors come online, using gravitational waves to probe the fundamental nature of gravity and our early universe, both of which are fundamental questions that interest me the most and are what I'd like to pursue in graduate school, will become an increasingly important tool. Given their importance and their potential, I have learned through working with Dr. Quashnock's group that I would like to at least stay close to gravitational waves in grad school, if not directly working on some theoretical or computational problem in gravitational wave physics.      </p>
+
+
+    <br>
+    <br>
+    <!---
+    <div style="text-align: left; font-weight: bold; font-size: 25px;">
+      <b>2023 Summer at LSU</b>
+    </div>
+
+    <p> 
+
+      Motivated by my interest in gravitational wave physics developed in working with Dr. Quashnock's group, I applied and was accepted to LSU's NSF-REU the summer following my sophomore year. Mentored by Dr. Gabriela González, I developed an array of techniques for determining whether a potential gravitational wave candidate was astrophysical or not, that have served as an impetus for work being developed by graduate students at LSU and are currently being extended for eventual implementation into LIGO’s pipeline. 
+      </p>
+
+
+    <br>
+    <br>
+    <div style="text-align: left; font-weight: bold; font-size: 20px;">
+      <b>Reflection on this REU Experience</b>
+    </div>
+
+    <p> testing </p>
+
+    
+    --->
+    
+  </div>
+
+</body>
+</html>
