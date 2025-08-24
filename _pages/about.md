@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -30,6 +30,3 @@ latest_posts:
 I am a first-year physics PhD student at the University of Florida.
 
 I am currently in the process of tranferring my academic website to the al-folio template. My undergrad website is linked [here](/undergrad/).
-
-
-

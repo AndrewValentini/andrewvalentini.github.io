@@ -4,7 +4,7 @@ services:
     image: amirpourmand/al-folio:v0.14.6
     build: .
     ports:
-      - 8080:8080   # site will be available at http://localhost:8080
+      - 8080:8080 # site will be available at http://localhost:8080
       - 35729:35729 # livereload port
     volumes:
       - .:/srv/jekyll

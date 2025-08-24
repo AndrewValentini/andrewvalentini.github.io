@@ -38,7 +38,6 @@ header {
   border-bottom: 5px solid #fff; /* Use border-bottom instead of border-top */
 }
 
-
 /* Styles for the dropdown menus */
 .dropdown-menu {
   display: none;
@@ -65,7 +64,6 @@ header {
   text-decoration: none;
   padding-right: 15px; /* Add spacing to accommodate the triangle */
 }
-
 
 /* Show the dropdown menu when the .show class is added */
 .dropdown-menu.show {
@@ -118,7 +116,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: #333; /* Set the background color to a darker grey */
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }

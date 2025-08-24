@@ -85,10 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-
-
 # I have deleted the blog
-
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -131,7 +128,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: 
+include:
   - _pages
   - _scripts
   - undergrad
@@ -607,7 +604,6 @@ jsonresume:
   - languages
   - interests
   - references
-
 
 nav_external:
   - title: "here"

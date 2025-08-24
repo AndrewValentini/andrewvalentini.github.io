@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Where I will put detailed descriptions of projects I have worked on. 
+description: Where I will put detailed descriptions of projects I have worked on.
 nav: true
 nav_order: 3
 display_categories: [physics, math]

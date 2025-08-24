@@ -1,68 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Website</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <div class="header-text">
-      Andrew Valentini
-    </div>
-    <div class="link-box" onclick="toggleDropdown(this)">
-      <a>Research</a>
-      <div class="dropdown-menu">
-        <a href="gwaves_home.html">Gravitational Waves</a>
-        <a href="mpgfoss_home.html">MPG-FOSS</a>
+  <head>
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-text">Andrew Valentini</div>
+      <div class="link-box" onclick="toggleDropdown(this)">
+        <a>Research</a>
+        <div class="dropdown-menu">
+          <a href="gwaves_home.html">Gravitational Waves</a>
+          <a href="mpgfoss_home.html">MPG-FOSS</a>
+        </div>
       </div>
-    </div>
-    <div class="link-box" onclick="toggleDropdown(this)">
-      <a>Derivations</a>
-      <div class="dropdown-menu">
-        <a href="#">Test</a>
-        <a href="#">Sublink 2</a>
-        <a href="#">Sublink 3</a>
+      <div class="link-box" onclick="toggleDropdown(this)">
+        <a>Derivations</a>
+        <div class="dropdown-menu">
+          <a href="#">Test</a>
+          <a href="#">Sublink 2</a>
+          <a href="#">Sublink 3</a>
+        </div>
       </div>
-    </div>
-    <div class="link-box" onclick="toggleDropdown(this)">
-      <a href="">Writing</a>
-      <div class="dropdown-menu">
-        <a href="">Sublink 1</a>
-        <a href="">Sublink 2</a>
-        <a href="">Sublink 3</a>
+      <div class="link-box" onclick="toggleDropdown(this)">
+        <a href="">Writing</a>
+        <div class="dropdown-menu">
+          <a href="">Sublink 1</a>
+          <a href="">Sublink 2</a>
+          <a href="">Sublink 3</a>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <script>
-    function toggleDropdown(linkBox) {
-      var dropdownMenu = linkBox.querySelector('.dropdown-menu');
-      var allDropdownMenus = document.querySelectorAll('.dropdown-menu');
+    <script>
+      function toggleDropdown(linkBox) {
+        var dropdownMenu = linkBox.querySelector(".dropdown-menu");
+        var allDropdownMenus = document.querySelectorAll(".dropdown-menu");
 
-      // Close all other open dropdown menus
-      allDropdownMenus.forEach(function(menu) {
-        if (menu !== dropdownMenu) {
-          menu.classList.remove('show');
-        }
+        // Close all other open dropdown menus
+        allDropdownMenus.forEach(function (menu) {
+          if (menu !== dropdownMenu) {
+            menu.classList.remove("show");
+          }
+        });
+
+        dropdownMenu.classList.toggle("show");
+
+        // Add "clicked" class to link box
+        linkBox.classList.toggle("clicked");
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        var dropdownMenus = document.querySelectorAll(".dropdown-menu");
+
+        // Close dropdown menus when clicking outside
+        document.addEventListener("click", function (event) {
+          if (!event.target.closest(".link-box")) {
+            dropdownMenus.forEach(function (menu) {
+              menu.classList.remove("show");
+            });
+          }
+        });
       });
-
-      dropdownMenu.classList.toggle('show');
-
-      // Add "clicked" class to link box
-      linkBox.classList.toggle('clicked');
-    }
-    document.addEventListener('DOMContentLoaded', function() {
-      var dropdownMenus = document.querySelectorAll('.dropdown-menu');
-
-      // Close dropdown menus when clicking outside
-      document.addEventListener('click', function(event) {
-        if (!event.target.closest('.link-box')) {
-          dropdownMenus.forEach(function(menu) {
-            menu.classList.remove('show');
-          });
-        }
-      });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
