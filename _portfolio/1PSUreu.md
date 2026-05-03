@@ -4,6 +4,7 @@ excerpt: "During the summer of 2024, I participated in Penn State's Physics REU,
           of a quantum circuit to study the domain of positivity for individual qubit maps and analyzed various thermodynamic and
           information-theoretic properties."
 collection: portfolio
+# permalink: /portfolio/PSU_REU/
 ---
 
 TEST
