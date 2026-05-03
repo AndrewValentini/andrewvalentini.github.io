@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-TESTING!!
+
 I am a first-year graduate student from Minnesota. 
 
 I am currently working on AI-driven superconductor discovery with Dr. Richard Hennig.  
