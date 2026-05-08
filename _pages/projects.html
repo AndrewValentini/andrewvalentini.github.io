@@ -1,14 +1,38 @@
 ---
 layout: archive
-title: "Projects"
+title: "Various Projects &amp; Notes"
 permalink: /projects/
 author_profile: true
 ---
 
-{% include base_path %}
+<h2><strong>Solid State Physics &amp; Materials Theory</strong></h2>
+{% assign solidstate_projects = site.projects | where: "category", "solid_state" | sort: "order" %}
+{% for post in solidstate_projects %}
+  <h3>
+    <a href="{% if post.pdf %}{{ post.pdf | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}">
+      {{ post.title }}
+    </a>
+  </h3>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
+<hr>
 
-
-{% for post in site.projects %}
-  {% include archive-single.html %}
+<h2><strong>Finance</strong></h2>
+{% assign finance_projects = site.projects | where: "category", "finance" %}
+{% for post in finance_projects %}
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p>{{ post.excerpt }}</p>
 {% endfor %}
 
+<hr>
+
+<h2><strong>Assorted Physics</strong></h2>
+{% assign physics_projects = site.projects | where: "category", "physics" | sort: "order" %}
+{% for post in physics_projects %}
+  <h3>
+    <a href="{% if post.pdf %}{{ post.pdf | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}">
+      {{ post.title }}
+    </a>
+  </h3>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}

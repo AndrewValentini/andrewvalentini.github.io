@@ -5,6 +5,9 @@ excerpt: "During the summer of 2024, I participated in Penn State's Physics REU,
           information-theoretic properties."
 collection: portfolio
 # permalink: /portfolio/PSU_REU/
+author_profile: true
+share: true
+navigation: true
 ---
 
 TEST
