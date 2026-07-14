@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Various Projects &amp; Notes"
+title: ""
 permalink: /projects/
 author_profile: true
 ---
 
-<h2><strong>Solid State Physics &amp; Materials Theory</strong></h2>
+<h2><strong>Solid State Physics &amp; Materials Theory Notes and Presentations</strong></h2>
 {% assign solidstate_projects = site.projects | where: "category", "solid_state" | sort: "order" %}
 {% for post in solidstate_projects %}
   <h3>
@@ -17,7 +17,7 @@ author_profile: true
 {% endfor %}
 <hr>
 
-<h2><strong>Finance</strong></h2>
+<h2><strong>Finance Notes and Projects</strong></h2>
 {% assign finance_projects = site.projects | where: "category", "finance" %}
 {% for post in finance_projects %}
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -26,7 +26,7 @@ author_profile: true
 
 <hr>
 
-<h2><strong>Assorted Physics</strong></h2>
+<h2><strong>Assorted Physics Notes, Theses, and Worked Solutions</strong></h2>
 {% assign physics_projects = site.projects | where: "category", "physics" | sort: "order" %}
 {% for post in physics_projects %}
   <h3>

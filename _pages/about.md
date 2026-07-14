@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 
-I am a first-year graduate student from Minnesota. 
+I am a second-year graduate student from Minnesota. 
 
-I am currently working on AI-driven superconductor discovery with Dr. Richard Hennig.  
+I am working on AI-driven superconductor discovery with Dr. Richard Hennig and am currently guiding generative pipelines to discover likely ordered, high critical temperature superconductors. 
 
 My undergraduate research spanned gravitational wave detector characterization, quantum information theory, and correlation functions in the context of materials theory. 
 
