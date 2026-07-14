@@ -5,3 +5,8 @@ collection: portfolio
 ---
 
 During my junior year at Carthage College, Dr. Joseph Anderson and I developed a new method for the pair correlation function for circular objects. I then used this to compute correlations functions of circular density fluctuations in the CMB for my physics thesis.
+
+Link to poster on computing dislocation loop correlation functions is <a href='/files/posters/CoS_2024_Poster.pdf'>here</a>
+
+Link to my undergraduate thesis in physics which determines how the CMB spectrum changes under the addition of higher-order correlation functions is <a href='/files/Physics_Thesis__Official.pdf'>here</a>
+

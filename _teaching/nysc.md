@@ -11,6 +11,6 @@ share : false
 navigation: false
 ---
 
-- Gave three day Directed Study on special and general relativity. Notes are linked [here]({{ '/files/NYSC_Directed_Study_Notes___FULL.pdf' | relative_url }}).
+- Gave three day Directed Study on special and general relativity. Notes are linked [here](/files/NYSC_Directed_Study_Notes___FULL.pdf).
 - Gave seminar on preparing and applying for PhD programs
 - Organized and lead hiking, climbing, and overnight backpacking trips

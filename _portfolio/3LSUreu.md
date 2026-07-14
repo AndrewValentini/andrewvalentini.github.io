@@ -5,3 +5,5 @@ collection: portfolio
 ---
 
 During Summer 2023, I participated in LSU's REU program, mentored by Dr. Gabriela González, working on LIGO data analysis and noise characterization.
+
+Poster is linked <a href='/files/posters/LSU REU Poster.pdf'>here</a>
