@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a second-year graduate student from Minnesota. 
+I am a second-year Physics PhD student at the University of Florida, originally from Minnesota. 
 
 I am working on AI-driven superconductor discovery with Dr. Richard Hennig and am currently guiding generative pipelines to discover ordered, high critical temperature superconductors. 
 

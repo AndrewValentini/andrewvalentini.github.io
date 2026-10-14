@@ -51,6 +51,18 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
+    {% comment %} Optional image under the description. Off unless preview_image is set in the item's front matter. {% endcomment %}
+    {% if post.preview_image %}
+      <figure class="archive__item-figure">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          <img src="{% if post.preview_image contains '://' %}{{ post.preview_image }}{% else %}{{ post.preview_image | prepend: base_path }}{% endif %}" alt="{{ post.preview_alt | default: post.title | strip_html | escape }}" loading="lazy" />
+        </a>
+        {% if post.preview_caption %}
+          <figcaption>{{ post.preview_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
