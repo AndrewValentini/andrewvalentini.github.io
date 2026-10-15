@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+og_title: "Andrew Valentini"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,5 +22,6 @@ You can also find me on my [UF page](https://sites.google.com/view/andrew-valent
 
 - **Jul 2026:** Presented a poster on diffusion-based superconductor discovery at Purdue
 - **Summer 2026:** Completed the Erdős Institute Quantitative Finance program
+- **Oct 2025:** Earned the NVIDIA Getting Started with Deep Learning certification
 - **Sep 2025:** Started my PhD at UF with the Graduate School Opportunity Award
 - **Aug 2025:** [PINCH](/publications/) published in *Classical and Quantum Gravity*
